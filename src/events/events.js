@@ -7,7 +7,6 @@ const evnt = function () {
         alert("Great Shossst!");
     }
 
-
     return (
 
         <div className="content">
