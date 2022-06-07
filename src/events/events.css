@@ -17,3 +17,7 @@ button{
     flex-direction: column;
     justify-content: center;
 }
+a{
+    background-color: aqua;
+    display: inline-block;
+}
