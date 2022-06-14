@@ -49,6 +49,11 @@ class State3 extends Component {
 
         this.setState({name: "prdp",roll:254})
     }
+    handleClick2 =() =>{     
+              this.setState(function(state, props){
+                console.log(state.name)
+              })
+    }
 
 
     render() {
@@ -57,6 +62,7 @@ class State3 extends Component {
                 <h3>Update State</h3>
                 <h3> Name - {this.state.name}, Roll - {this.state.roll} </h3>
                 <button onClick={this.handleClick}>Click Me</button>
+                <button onClick={this.handleClick2}>Click Me2</button>
             </div>
         )
     }
