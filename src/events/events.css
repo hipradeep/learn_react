@@ -18,6 +18,7 @@ button{
     justify-content: center;
 }
 a{
-    background-color: aqua;
-    display: inline-block;
+    /* background-color: aqua;
+    display: inline-block; */
+    margin: 50px;
 }

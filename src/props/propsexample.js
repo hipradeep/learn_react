@@ -15,6 +15,7 @@ function Car(props) {
     return (
       <>
         <h1>Who lives in my garage?</h1>
+        {/*COMT:012 */}
         {/* use of jsx children */}
         <h1>{props.children}</h1>
         <Car brand={ carInfo } />
