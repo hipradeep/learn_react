@@ -54,15 +54,21 @@ class State3 extends Component {
                 console.log(state.name)
               })
     }
+    handleClick3 =(_name, e) =>{console.log(_name); console.log(e)  }
 
+    handleClickArg =(e) =>{ this.handleClick3(this.state.name, e);  }
 
     render() {
         return (
             <div>
                 <h3>Update State</h3>
                 <h3> Name - {this.state.name}, Roll - {this.state.roll} </h3>
-                <button onClick={this.handleClick}>Click Me</button>
+                {/* do not use () for handler e.g- handleClick(), it get autometicly call */}
+                <button onClick={this.handleClick}>Click Me</button>  
                 <button onClick={this.handleClick2}>Click Me2</button>
+                <button onClick={this.handleClickArg}>Click Me3</button>
+                <button onClick={(e) =>{ this.handleClick3(this.state.name, e)}}>Click Me4</button>
+                <button onClick={this.handleClick3.bind(this, this.state.name)}>Click Me5</button>
             </div>
         )
     }
