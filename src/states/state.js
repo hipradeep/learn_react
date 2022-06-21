@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+
+//Call:- <State roll={450} />
 class State extends Component {
     state = {
         name: " pradeep maurya ",
@@ -14,7 +16,9 @@ class State extends Component {
         )
     }
 }
+
 //using constuctor
+//Call:- <State2 roll={450} />
 class State2 extends Component {
     constructor(props) {
         super(props);
@@ -61,15 +65,18 @@ class State3 extends Component {
     render() {
         return (
             <div>
+               
                 <h3>Update State</h3>
                 <h3> Name - {this.state.name}, Roll - {this.state.roll} </h3>
                 {/* do not use () for handler e.g- handleClick(), it get autometicly call */}
-                <button onClick={this.handleClick}>Click Me</button>  
-                <button onClick={this.handleClick2}>Click Me2</button>
-                <button onClick={this.handleClickArg}>Click Me3</button>
-                <button onClick={(e) =>{ this.handleClick3(this.state.name, e)}}>Click Me4</button>
+                <button onClick={this.handleClick}>Click Me</button>  <br></br><br></br>
+                <button onClick={this.handleClick2}>Click Me2(See Console)</button><br></br><br></br>
+                <button onClick={this.handleClickArg}>Click Me3</button><br></br><br></br>
+                <button onClick={(e) =>{ this.handleClick3(this.state.name, e)}}>Click Me4</button><br></br><br></br>
                 <button onClick={this.handleClick3.bind(this, this.state.name)}>Click Me5</button>
-            </div>
+                </div>
+               
+            
         )
     }
 }

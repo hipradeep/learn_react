@@ -1,26 +1,49 @@
 import logo from './logo.svg';
 
-// import Compnt from "./nav1/navbar1";
- // import Compnt from "./events/eventInClassComp";
-//  import Compnt from "./events/eventsInFunComp";
-//import Compnt from "./props/propsexample";
- import Compnt from "./states/state";
-
+// import CompNav from "./nav1/navbar1";
+// import CompntEvnt from "./events/eventInClassComp";
+// import CompntEvntFun from "./events/eventsInFunComp";
+// import CompntProp from "./props/propsexample";
+// import  CompntStt from "./states/state";
+// import CompntCls from "./components/classcpnt";
+// import CompCompntSttntFun from "./components/functioncpnt";
+// import CompLifeCycle from "./lifecyclemethods/lifecycle";
+import CompLifeCycle2 from "./lifecyclemethods/lifecycle";2
 function App(props) {
 
   return (
 
     <>
+
+      {/* class components */}
+      {/* <CompntCls email="helpdesk@cdac.in" address="noida"> welcome to ReactWorld </CompntCls> */}
+
+      {/* functional component */}
+      {/* <CompntFun name="GE" code="123454"></CompntFun> */}
+      {/* <CompntFun name="neha" code="345" ></CompntFun> */}
+      {/* <CompntCls email="abc@gmail.com" address="noida">Test</CompntCls> */}
+
+
       {/*COMT:011 */}
       {/* use of jsx children */}
       {/* <h1>{props.children}</h1> */}
-      
-       {/*COMT:012 */}
+
+      {/*COMT:012 */}
       {/* <Compnt>  sending children to components   </Compnt> */}
 
-      <Compnt roll ={450} />
+      {/* <CompntStt roll={450} /> */}
 
-      {/* <Compnt/> */}
+      {/* LifeCycle */}
+
+      {/* without props */}
+      {/* <CompLifeCycle /> */}
+
+      {/* sending props */}
+      {/* <CompLifeCycle name="i am props" /> */}
+
+      <CompLifeCycle2 name="i am props" />
+
+
 
     </>);
 
