@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 
 // import CompNav from "./nav1/navbar1";
 // import CompntEvnt from "./events/eventInClassComp";
@@ -8,8 +8,12 @@ import logo from './logo.svg';
 // import CompntCls from "./components/classcpnt";
 // import CompCompntSttntFun from "./components/functioncpnt";
 // import CompLifeCycle from "./lifecyclemethods/lifecycle";
-import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
-import RouteCpnt from "./routes/routes_cpnt";
+// import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
+// import RouteCpnt from "./routes/routes_cpnt";
+import HookForm from "./form_hook/form";
+import CSSBasic from "./add-css-in-component/basic";
+
+
 function App(props) {
 
   return (
@@ -45,7 +49,9 @@ function App(props) {
       {/* <CompLifeCycle2 name="i am props" /> */}
 
 
-      <RouteCpnt />
+      {/* <RouteCpnt /> */}
+      {/* <HookForm /> */}
+      <CSSBasic />
 
     </>);
 
