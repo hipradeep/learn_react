@@ -8,7 +8,8 @@ import logo from './logo.svg';
 // import CompntCls from "./components/classcpnt";
 // import CompCompntSttntFun from "./components/functioncpnt";
 // import CompLifeCycle from "./lifecyclemethods/lifecycle";
-import CompLifeCycle2 from "./lifecyclemethods/lifecycle";2
+import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
+import RouteCpnt from "./routes/routes_cpnt";
 function App(props) {
 
   return (
@@ -41,9 +42,10 @@ function App(props) {
       {/* sending props */}
       {/* <CompLifeCycle name="i am props" /> */}
 
-      <CompLifeCycle2 name="i am props" />
+      {/* <CompLifeCycle2 name="i am props" /> */}
 
 
+      <RouteCpnt />
 
     </>);
 

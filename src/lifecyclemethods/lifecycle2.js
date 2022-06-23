@@ -11,11 +11,17 @@ import React, { Component } from 'react'
     
   }
    
+clickMe=()=>{
+  console.log("Button Clickrd");
+  this.setState({roll:102})
+}
+
   render() {
     console.log("Student Component");
     return (
       <div>
         <Marks roll={this.state.roll} />
+        <button onClick={this.clickMe}>clickMe</button>
         </div>
     )
   }
@@ -26,7 +32,7 @@ import React, { Component } from 'react'
   render() {
     console.log("Marks Component")
     return (
-      <div>Marks Component</div>
+      <div>Marks Component : </div>
     )
   }
 }
