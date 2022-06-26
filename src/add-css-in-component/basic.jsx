@@ -1,5 +1,7 @@
 import React from "react";
-import '../App.css';
+// import'../App.css';
+// import styles from '../App.css';
+ import styles from './myStyles.css';
 
 // in line style
  class MyHeader extends React.Component {
@@ -30,5 +32,21 @@ import '../App.css';
       );
     }
   }
+  class MyHeader3 extends React.Component {
+    render() {
+      const mystyle = {
+        color: "white",
+        backgroundColor: "DodgerBlue",
+        padding: "10px",
+        fontFamily: "Arial"
+      };
+      return (
+        <div>
+        <h1 className={styles.bigblue}>Hello Style!</h1>
+        <p>Add a little style!</p>
+        </div>
+      );
+    }
+  }
 
-  export default MyHeader2;
+  export default MyHeader3;

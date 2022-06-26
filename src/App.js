@@ -9,8 +9,8 @@
 // import CompCompntSttntFun from "./components/functioncpnt";
 // import CompLifeCycle from "./lifecyclemethods/lifecycle";
 // import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
-// import RouteCpnt from "./routes/routes_cpnt";
-import HookForm from "./form_hook/form";
+import RouteCpnt from "./routes/routes_cpnt";
+// import HookForm from "./form_hook/form";
 import CSSBasic from "./add-css-in-component/basic";
 
 
@@ -49,9 +49,11 @@ function App(props) {
       {/* <CompLifeCycle2 name="i am props" /> */}
 
 
-      {/* <RouteCpnt /> */}
+      <RouteCpnt />
+
       {/* <HookForm /> */}
-      <CSSBasic />
+      
+      {/* <CSSBasic /> */}
 
     </>);
 
