@@ -10,11 +10,15 @@
 // import CompLifeCycle from "./lifecyclemethods/lifecycle";
 // import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
 // import CompLifeCycle3 from "./lifecyclemethods/lifecycle3";
-import CompLifeCycle4 from "./lifecyclemethods/lifecycle4";
+// import CompLifeCycle4 from "./lifecyclemethods/lifecycle4";
 // import RouteCpnt from "./routes/routes_cpnt";
 // import HookForm from "./form_hook/form";
 // import CSSBasic from "./add-css-in-component/basic";
 // import MainHead from "./lifting_state_up/MainHead";
+// import Hook1 from "./hooks/Hook1";
+// import Hook2 from "./hooks/Hook2";
+// import Hook3 from "./hooks/Hook3";
+import List from "./list/List";
 
 
 function App(props) {
@@ -51,7 +55,7 @@ function App(props) {
 
       {/* <CompLifeCycle2 name="i am props" /> */}
 
-      <CompLifeCycle4 />
+      {/* <CompLifeCycle4 /> */}
 
 
       {/* <RouteCpnt /> */}
@@ -62,6 +66,12 @@ function App(props) {
 
       {/* lifting state up */}
       {/* <MainHead /> */}
+
+      {/* <Hook1 /> */}
+      {/* <Hook2 /> */}
+      {/* <Hook3 /> */}
+      <List />
+
     </>);
 
 }
