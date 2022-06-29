@@ -3,23 +3,42 @@
 import React, { Component } from 'react'
 import '../App.css'
 
-export default class SimpleForm extends Component {
-  state = {
-    value: ""
-  }
-  handlerChange = (e) => {
-   // this.setState({ value: e.target.value });
-    this.setState({ value: e.target.value.toUpperCase() });
-  }
-  render() {
-    return (
-      <div>
+export default class LoginForm extends Component {
+    state = {
+        name: "",
+        password: ""
+    }
+    handlerName = (e) => {
 
-        <h1>Simple Form</h1>
+        this.setState({ name: e.target.value.toUpperCase() });
+    }
+    handlerPassword = (e) => {
 
-        <input type="text" value={this.state.value} onChange={this.handlerChange} />
+        this.setState({ password: e.target.value.toUpperCase() });
+    }
+    handlerSubmit = (e) => {
+        console.log(e.target[0].value);
+        console.log(e.target[1].value);
+        e.preventDefault();
+    }
+    render() {
+        return (
+            <div>
 
-      </div>
-    )
-  }
+                <h1>Simple Form</h1>
+
+                <form action="" onSubmit={this.handlerSubmit}>
+                    <label> Name
+                        <input type="text" value={this.state.name} onChange={this.handlerName} />
+                    </label>
+                    <label> Password
+                        <input type="text" value={this.state.password} onChange={this.handlerPassword} />
+                    </label>
+                    <input type="submit" />
+                </form>
+
+
+            </div>
+        )
+    }
 }

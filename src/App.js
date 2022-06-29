@@ -18,9 +18,10 @@
 // import Hook1 from "./hooks/Hook1";
 // import Hook2 from "./hooks/Hook2";
 // import Hook3 from "./hooks/Hook3";
-import List from "./list/List";
-import Bootstraps from "./add-css-in-component/Bootstraps";
-import SimpleForm from "./controlled-component/CComponent";
+// import List from "./list/List";
+// import Bootstraps from "./add-css-in-component/Bootstraps";
+// import SimpleForm from "./controlled-component/CComponent";
+import LoginForm from "./forms/Forms";
 
 
 function App(props) {
@@ -75,7 +76,8 @@ function App(props) {
       {/* <List /> */}
       
       {/* <Bootstraps /> */}
-      <SimpleForm />
+      {/* <SimpleForm /> */}
+      <LoginForm />
 
     </>);
 
