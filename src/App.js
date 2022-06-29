@@ -20,6 +20,7 @@
 // import Hook3 from "./hooks/Hook3";
 import List from "./list/List";
 import Bootstraps from "./add-css-in-component/Bootstraps";
+import SimpleForm from "./controlled-component/CComponent";
 
 
 function App(props) {
@@ -73,7 +74,8 @@ function App(props) {
       {/* <Hook3 /> */}
       {/* <List /> */}
       
-      <Bootstraps />
+      {/* <Bootstraps /> */}
+      <SimpleForm />
 
     </>);
 
