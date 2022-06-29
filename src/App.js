@@ -19,6 +19,7 @@
 // import Hook2 from "./hooks/Hook2";
 // import Hook3 from "./hooks/Hook3";
 import List from "./list/List";
+import Bootstraps from "./add-css-in-component/Bootstraps";
 
 
 function App(props) {
@@ -70,7 +71,9 @@ function App(props) {
       {/* <Hook1 /> */}
       {/* <Hook2 /> */}
       {/* <Hook3 /> */}
-      <List />
+      {/* <List /> */}
+      
+      <Bootstraps />
 
     </>);
 

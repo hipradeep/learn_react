@@ -1,7 +1,8 @@
 import React from "react";
 // import'../App.css';
 // import styles from '../App.css';
- import styles from './myStyles.css';
+//add module 
+ import styles from './myStyles.module.css';
 
 // in line style
  class MyHeader extends React.Component {
@@ -34,12 +35,7 @@ import React from "react";
   }
   class MyHeader3 extends React.Component {
     render() {
-      const mystyle = {
-        color: "white",
-        backgroundColor: "DodgerBlue",
-        padding: "10px",
-        fontFamily: "Arial"
-      };
+    
       return (
         <div>
         <h1 className={styles.bigblue}>Hello Style!</h1>
