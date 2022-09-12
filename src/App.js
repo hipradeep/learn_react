@@ -11,7 +11,9 @@
 // import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
 // import CompLifeCycle3 from "./lifecyclemethods/lifecycle3";
 // import CompLifeCycle4 from "./lifecyclemethods/lifecycle4";
-// import RouteCpnt from "./routes/routes_cpnt";
+import MainAppRoutes from "./routes/Main";
+import IndexAppRoutes from "./routes-2/Index";
+// import ReactRoute from "./routes/ReactRoute";
 // import HookForm from "./form_hook/form";
 // import CSSBasic from "./add-css-in-component/basic";
 // import MainHead from "./lifting_state_up/MainHead";
@@ -21,7 +23,8 @@
 // import List from "./list/List";
 // import Bootstraps from "./add-css-in-component/Bootstraps";
 // import SimpleForm from "./controlled-component/CComponent";
-import LoginForm from "./forms/Forms";
+// import LoginForm from "./forms/Forms";
+// import ContextApi from "./context-api/Parent";
 
 
 function App(props) {
@@ -61,7 +64,11 @@ function App(props) {
       {/* <CompLifeCycle4 /> */}
 
 
-      {/* <RouteCpnt /> */}
+      {/* <MainAppRoutes /> */}
+
+      <IndexAppRoutes />
+
+      {/* <ReactRoute /> */}
 
       {/* <HookForm /> */}
 
@@ -77,9 +84,11 @@ function App(props) {
       
       {/* <Bootstraps /> */}
       {/* <SimpleForm /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      {/* <ContextApi/> */}
 
-    </>);
+    </>
+    );
 
 }
 
