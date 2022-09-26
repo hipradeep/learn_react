@@ -11,8 +11,9 @@
 // import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
 // import CompLifeCycle3 from "./lifecyclemethods/lifecycle3";
 // import CompLifeCycle4 from "./lifecyclemethods/lifecycle4";
-import MainAppRoutes from "./routes/Main";
-import IndexAppRoutes from "./routes-2/Index";
+// import MainAppRoutes from "./routes/Main";
+// import IndexAppRoutes from "./routes-2/Index";
+import AxiosTodo from "./rest-axios/AxiosTodo";
 // import ReactRoute from "./routes/ReactRoute";
 // import HookForm from "./form_hook/form";
 // import CSSBasic from "./add-css-in-component/basic";
@@ -66,7 +67,7 @@ function App(props) {
 
       {/* <MainAppRoutes /> */}
 
-      <IndexAppRoutes />
+      {/* <IndexAppRoutes /> */}
 
       {/* <ReactRoute /> */}
 
@@ -86,6 +87,8 @@ function App(props) {
       {/* <SimpleForm /> */}
       {/* <LoginForm /> */}
       {/* <ContextApi/> */}
+
+      <AxiosTodo/>
 
     </>
     );

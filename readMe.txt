@@ -5,9 +5,15 @@ npm start
 npm install react-icons --save
 npm i bootstrap
 
+//react router
 npm i react-router-dom
+or
+npm install react-router-dom@6
+
+
 npm i react-hook-form
 npm i axios
+npm install axios
 npm install bootstrap
 
 //after install, bootstrap, import this in src/index.js
@@ -33,3 +39,7 @@ import checkPropTypes from 'check-prop-types';
 rcc - reactClassComponent
 rfc - reactFunctionalComponent
 clg - console.log()
+
+
+----------
+npm i cors

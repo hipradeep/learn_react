@@ -39,8 +39,8 @@
 
 /* Writing basic css style for 'add-css-in-component/basic' */
 body {
-  background-color: #282c34;
-  color: white;
+  background-color: #fff;
+  color: 000;
   padding: 40px;
   font-family: Arial;
   text-align: center;
