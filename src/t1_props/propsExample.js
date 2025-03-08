@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import checkPropTypes from 'check-prop-types';
 
-import CarRed from "./carcomponents";
+import CarRed from "./carComponents";
 
 
 function Car(props) {

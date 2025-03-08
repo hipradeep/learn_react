@@ -7,13 +7,15 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  //COMT:011
+  // <React.StrictMode>
+  //   {/* props.children(Children Prop Pattern) */}
+  //   <App > I am pradeep maurya! (jsx children)</App>
+  // </React.StrictMode>
+
   <React.StrictMode>
     <App  />
   </React.StrictMode>
-  //COMT:011
-  // <React.StrictMode>
-  //   <App > I am pradeep maurya! (jsx children)</App>
-  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

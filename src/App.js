@@ -1,11 +1,12 @@
 // import logo from './logo.svg';
 
+import CompntCls from "./components/classcpnt";
+import Garage from "./t1_props/propsExample";
 // import CompNav from "./nav1/navbar1";
 // import CompntEvnt from "./events/eventInClassComp";
 // import CompntEvntFun from "./events/eventsInFunComp";
 // import CompntProp from "./props/propsexample";
 // import  CompntStt from "./states/state";
-// import CompntCls from "./components/classcpnt";
 // import CompCompntSttntFun from "./components/functioncpnt";
 // import CompLifeCycle from "./lifecyclemethods/lifecycle";
 // import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
@@ -13,7 +14,7 @@
 // import CompLifeCycle4 from "./lifecyclemethods/lifecycle4";
 // import MainAppRoutes from "./routes/Main";
 // import IndexAppRoutes from "./routes-2/Index";
-import AxiosTodo from "./rest-axios/AxiosTodo";
+//import AxiosTodo from "./rest-axios/AxiosTodo";
 // import ReactRoute from "./routes/ReactRoute";
 // import HookForm from "./form_hook/form";
 // import CSSBasic from "./add-css-in-component/basic";
@@ -33,6 +34,13 @@ function App(props) {
   return (
 
     <>
+      {/*COMT:011 */}
+      {/* use of jsx children */}
+      {/* <h1>{props.children}</h1> */}
+
+      {/*COMT:012 */}
+      <Garage>  sending children to components Garage - COMT:012  </Garage>
+
 
       {/* class components */}
       {/* <CompntCls email="helpdesk@cdac.in" address="noida"> welcome to ReactWorld </CompntCls> */}
@@ -43,12 +51,7 @@ function App(props) {
       {/* <CompntCls email="abc@gmail.com" address="noida">Test</CompntCls> */}
 
 
-      {/*COMT:011 */}
-      {/* use of jsx children */}
-      {/* <h1>{props.children}</h1> */}
 
-      {/*COMT:012 */}
-      {/* <Compnt>  sending children to components   </Compnt> */}
 
       {/* <CompntStt roll={450} /> */}
 
@@ -88,7 +91,7 @@ function App(props) {
       {/* <LoginForm /> */}
       {/* <ContextApi/> */}
 
-      <AxiosTodo/>
+      {/*<AxiosTodo/> */}
 
     </>
     );
