@@ -8,6 +8,10 @@ import CarRed from "./carComponents";
 function Car(props) {
     return <h2>I am a { props.brand.model }!</h2>;
   }
+
+  // const Car = (props) => {
+  //   return <h2>I am a {props.brand.model}!</h2>;
+  // };
   
   function Garage(props) {
     const carInfo = { name: "Ford", model: "Mustang" };

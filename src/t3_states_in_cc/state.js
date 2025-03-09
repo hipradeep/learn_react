@@ -23,7 +23,7 @@ class State2 extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: " pradeep maurya ",
+            name: " pradeep maurya22 ",
             roll: this.props.roll
         }
     }
@@ -43,7 +43,7 @@ class State3 extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: " pradeep maurya ",
+            name: " pradeep maurya 44",
             roll: this.props.roll
         }
     }
@@ -58,8 +58,10 @@ class State3 extends Component {
                 console.log(state.name)
               })
     }
+    //getting argument from event
     handleClick3 =(_name, e) =>{console.log(_name); console.log(e)  }
 
+    //call anothr function from event
     handleClickArg =(e) =>{ this.handleClick3(this.state.name, e);  }
 
     render() {

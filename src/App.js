@@ -2,14 +2,19 @@
 
 import CompntCls from "./t1_components/classcpnt";
 import CompntFun from "./t1_components/functioncpnt";
-import Garage from "./t2_props/propsExample";
+// import Garage from "./t2_props/propsExample";
+import ChangeState from "./t3_states_in_cc/changeState";
 
 
 // import CompNav from "./nav1/navbar1";
 // import CompntEvnt from "./events/eventInClassComp";
 // import CompntEvntFun from "./events/eventsInFunComp";
 // import CompntProp from "./props/propsexample";
-import  CompntStt from "./states/state";
+import  StateCompt from "./t3_states_in_cc/state";
+import CarDetails from "./t4_states_in_fc/CarDetails";
+import Counter from "./t4_states_in_fc/counter";
+import TodoList from "./t4_states_in_fc/TodoList";
+import UserProfile from "./t4_states_in_fc/UserProfile";
 // import CompCompntSttntFun from "./components/functioncpnt";
 // import CompLifeCycle from "./lifecyclemethods/lifecycle";
 // import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
@@ -45,7 +50,7 @@ function App(props) {
       {/* <CompntCls email="helpdesk@cdac.in" address="noida"> welcome to ReactWorld </CompntCls> */}
 
       {/* functional component */}
-      <CompntFun name="GE" code="123454"></CompntFun>
+      {/* <CompntFun name="GE" code="123454"></CompntFun> */}
 
       {/*COMT:012 */}
       {/*Function Component */}
@@ -53,10 +58,18 @@ function App(props) {
 
 
 
+    {/* <ChangeState/> */}
 
 
+      {/* <StateCompt roll={450} /> */}
 
-      {/* <CompntStt roll={450} /> */}
+      {/* < Counter /> */}
+
+      {/* < UserProfile /> */}
+
+      {/* <CarDetails /> */}
+
+      <TodoList />
 
       {/* LifeCycle */}
 
