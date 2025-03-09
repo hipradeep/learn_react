@@ -1,12 +1,15 @@
 // import logo from './logo.svg';
 
-import CompntCls from "./components/classcpnt";
-import Garage from "./t1_props/propsExample";
+import CompntCls from "./t1_components/classcpnt";
+import CompntFun from "./t1_components/functioncpnt";
+import Garage from "./t2_props/propsExample";
+
+
 // import CompNav from "./nav1/navbar1";
 // import CompntEvnt from "./events/eventInClassComp";
 // import CompntEvntFun from "./events/eventsInFunComp";
 // import CompntProp from "./props/propsexample";
-// import  CompntStt from "./states/state";
+import  CompntStt from "./states/state";
 // import CompCompntSttntFun from "./components/functioncpnt";
 // import CompLifeCycle from "./lifecyclemethods/lifecycle";
 // import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
@@ -38,17 +41,17 @@ function App(props) {
       {/* use of jsx children */}
       {/* <h1>{props.children}</h1> */}
 
-      {/*COMT:012 */}
-      <Garage>  sending children to components Garage - COMT:012  </Garage>
-
-
       {/* class components */}
       {/* <CompntCls email="helpdesk@cdac.in" address="noida"> welcome to ReactWorld </CompntCls> */}
 
       {/* functional component */}
-      {/* <CompntFun name="GE" code="123454"></CompntFun> */}
-      {/* <CompntFun name="neha" code="345" ></CompntFun> */}
-      {/* <CompntCls email="abc@gmail.com" address="noida">Test</CompntCls> */}
+      <CompntFun name="GE" code="123454"></CompntFun>
+
+      {/*COMT:012 */}
+      {/*Function Component */}
+      {/* <Garage>  sending children to components Garage - COMT:012  </Garage> */}
+
+
 
 
 
