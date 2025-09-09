@@ -12,9 +12,13 @@ import ChangeState from "./t3_states_in_cc/changeState";
 // import CompntProp from "./props/propsexample";
 import  StateCompt from "./t3_states_in_cc/state";
 import CarDetails from "./t4_states_in_fc/CarDetails";
-import Counter from "./t4_states_in_fc/counter";
+import Counter from "./t8_flux/components/Counter";
 import TodoList from "./t4_states_in_fc/TodoList";
 import UserProfile from "./t4_states_in_fc/UserProfile";
+import Form1 from "./t7_form_handling/Form1";
+import HookForm from "./t7_form_handling/HookForm";
+import SarkariResult from "./t7_form_handling/sarkariresult";
+import SarkariResult2 from "./t7_form_handling/sarkariresult2";
 // import CompCompntSttntFun from "./components/functioncpnt";
 // import CompLifeCycle from "./lifecyclemethods/lifecycle";
 // import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
@@ -42,6 +46,8 @@ function App(props) {
   return (
 
     <>
+
+    <Counter/>
       {/*COMT:011 */}
       {/* use of jsx children */}
       {/* <h1>{props.children}</h1> */}
@@ -55,11 +61,8 @@ function App(props) {
       {/*COMT:012 */}
       {/*Function Component */}
       {/* <Garage>  sending children to components Garage - COMT:012  </Garage> */}
-
-
-
-    {/* <ChangeState/> */}
-
+    
+      {/* <ChangeState/> */}
 
       {/* <StateCompt roll={450} /> */}
 
@@ -69,7 +72,22 @@ function App(props) {
 
       {/* <CarDetails /> */}
 
-      <TodoList />
+      {/* <SarkariResult2 /> */}
+
+      {/* <TodoList /> */}
+
+      {/* < FormExample/>  */}
+
+       {/* <Form1/> */}
+
+      {/* < HookForm /> */}
+
+      
+
+
+
+
+
 
       {/* LifeCycle */}
 
