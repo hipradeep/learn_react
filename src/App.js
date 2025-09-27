@@ -44,6 +44,7 @@ import SarkariResult2 from "./t7_form_handling/sarkariresult2";
 // import { Provider } from 'react-redux';
 // import {store} from "./t9_redux/stores/store";
 import HocExample from "./t10_hoc/HOC";
+import ListApp from "./t10_hoc/UserList";
 
 function App(props) {
 
@@ -51,7 +52,9 @@ function App(props) {
 
     <>
 
-      <HocExample />
+
+    <ListApp />
+      {/* <HocExample /> */}
 
 
     {/* <CounterFlux/> */}
