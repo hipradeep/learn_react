@@ -15,6 +15,8 @@ npm i react-hook-form
 npm i axios
 npm install axios
 npm install bootstrap
+npm install flux@4.0.4 --legacy-peer-deps
+
 
 //after install, bootstrap, import this in src/index.js
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; 

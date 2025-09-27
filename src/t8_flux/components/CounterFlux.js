@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import CounterStore from '../stores/CounterStore';
 import CounterActions from '../actions/CounterActions';
 
-class Counter extends Component {
+class CounterFlux extends Component {
 
   constructor(props) {
     super(props);
@@ -56,4 +56,4 @@ class Counter extends Component {
   }
 }
 
-export default Counter;
+export default CounterFlux;

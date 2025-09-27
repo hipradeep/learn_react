@@ -12,7 +12,8 @@ import ChangeState from "./t3_states_in_cc/changeState";
 // import CompntProp from "./props/propsexample";
 import  StateCompt from "./t3_states_in_cc/state";
 import CarDetails from "./t4_states_in_fc/CarDetails";
-import Counter from "./t8_flux/components/Counter";
+import CounterFlux from "./t8_flux/components/CounterFlux";
+import CounterRedux from "./t9_redux/components/CounterRedux";
 import TodoList from "./t4_states_in_fc/TodoList";
 import UserProfile from "./t4_states_in_fc/UserProfile";
 import Form1 from "./t7_form_handling/Form1";
@@ -39,7 +40,10 @@ import SarkariResult2 from "./t7_form_handling/sarkariresult2";
 // import SimpleForm from "./controlled-component/CComponent";
 // import LoginForm from "./forms/Forms";
 // import ContextApi from "./context-api/Parent";
-
+// import ReactDOM from 'react-dom';
+// import { Provider } from 'react-redux';
+// import {store} from "./t9_redux/stores/store";
+import HocExample from "./t10_hoc/HOC";
 
 function App(props) {
 
@@ -47,7 +51,13 @@ function App(props) {
 
     <>
 
-    <Counter/>
+      <HocExample />
+
+
+    {/* <CounterFlux/> */}
+    {/* <Provider store={store}>
+    <CounterRedux/>
+    </Provider> */}
       {/*COMT:011 */}
       {/* use of jsx children */}
       {/* <h1>{props.children}</h1> */}
