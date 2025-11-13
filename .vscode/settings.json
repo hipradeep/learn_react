@@ -1,0 +1,7 @@
+{
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.inlineSuggest.edits.allowCodeShifting": "never",
+    "editor.quickSuggestions": {
+        "other": "off"
+    }
+}
