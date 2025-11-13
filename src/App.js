@@ -1,147 +1,139 @@
-// import logo from './logo.svg';
+import HookUseSateExample2 from "./hook1_useState/HookUseStateExample2";
+import ContactForm from "./hook1_useState/ContactForm";
+import Component from "./hook2_useEffect/Component";
+import UserProfile2 from "./hook2_useEffect/UserProfile2";
+import ToolbarWithContext from "./hook3_useContex/ToolbarWithContext";
+import ThemedButtonWithContext from "./hook3_useContex/ThemedButtonWithContext";
+import MultipleContext from "./hook3_useContex/MultipleContext";
+import ExpensiveCalculationComponentWithMemo from "./hook5_userMemo/ExpensiveCalculationComponentWithMemo";
 
-import CompntCls from "./t1_components/classcpnt";
-import CompntFun from "./t1_components/functioncpnt";
-// import Garage from "./t2_props/propsExample";
-import ChangeState from "./t3_states_in_cc/changeState";
 
-
-// import CompNav from "./nav1/navbar1";
-// import CompntEvnt from "./events/eventInClassComp";
-// import CompntEvntFun from "./events/eventsInFunComp";
-// import CompntProp from "./props/propsexample";
-import  StateCompt from "./t3_states_in_cc/state";
-import CarDetails from "./t4_states_in_fc/CarDetails";
-import CounterFlux from "./t8_flux/components/CounterFlux";
-import CounterRedux from "./t9_redux/components/CounterRedux";
-import TodoList from "./t4_states_in_fc/TodoList";
-import UserProfile from "./t4_states_in_fc/UserProfile";
-import Form1 from "./t7_form_handling/Form1";
-import HookForm from "./t7_form_handling/HookForm";
-import SarkariResult from "./t7_form_handling/sarkariresult";
-import SarkariResult2 from "./t7_form_handling/sarkariresult2";
-// import CompCompntSttntFun from "./components/functioncpnt";
-// import CompLifeCycle from "./lifecyclemethods/lifecycle";
-// import CompLifeCycle2 from "./lifecyclemethods/lifecycle2";
-// import CompLifeCycle3 from "./lifecyclemethods/lifecycle3";
-// import CompLifeCycle4 from "./lifecyclemethods/lifecycle4";
-// import MainAppRoutes from "./routes/Main";
-// import IndexAppRoutes from "./routes-2/Index";
-//import AxiosTodo from "./rest-axios/AxiosTodo";
-// import ReactRoute from "./routes/ReactRoute";
-// import HookForm from "./form_hook/form";
-// import CSSBasic from "./add-css-in-component/basic";
-// import MainHead from "./lifting_state_up/MainHead";
-// import Hook1 from "./hooks/Hook1";
-// import Hook2 from "./hooks/Hook2";
-// import Hook3 from "./hooks/Hook3";
-// import List from "./list/List";
-// import Bootstraps from "./add-css-in-component/Bootstraps";
-// import SimpleForm from "./controlled-component/CComponent";
-// import LoginForm from "./forms/Forms";
-// import ContextApi from "./context-api/Parent";
-// import ReactDOM from 'react-dom';
-// import { Provider } from 'react-redux';
-// import {store} from "./t9_redux/stores/store";
-import HocExample from "./t10_hoc/HOC";
-import ListApp from "./t10_hoc/UserList";
 
 function App(props) {
 
-  return (
-
-    <>
+  return (<>
 
 
-    <ListApp />
-      {/* <HocExample /> */}
+    {/* hook1_useState */}
+    {/* <HookUseSateExample/> */}
+    {/* <HookUseSateExample2 /> */}
+    {/* <ContactForm/> */}
+
+    {/* hoo2_useEffect */}
+    {/* <Component/> */}
+    {/* <UserProfile2 /> */}
+
+    {/* hook3_useContex */}
+
+    {/* <ToolbarWithContext/> */}
+   {/* < ThemedButtonWithContext/> */}
+   {/* <MultipleContext/> */}
+
+   {/* hook5_useMemo */}
+
+   <ExpensiveCalculationComponentWithMemo/>
+   
+
+
+
+
+
+
+
+
+
+
+
+    {/* <KeyImportance /> */}
+
+
+    {/* <EventDelegationExample /> */}
+    {/* <GreetUser /> */}
+
+
+    {/* <ListApp /> */}
+    {/* <HocExample /> */}
 
 
     {/* <CounterFlux/> */}
     {/* <Provider store={store}>
-    <CounterRedux/>
-    </Provider> */}
-      {/*COMT:011 */}
-      {/* use of jsx children */}
-      {/* <h1>{props.children}</h1> */}
+       <CounterRedux/>
+       </Provider> */}
 
-      {/* class components */}
-      {/* <CompntCls email="helpdesk@cdac.in" address="noida"> welcome to ReactWorld </CompntCls> */}
+    {/*COMT:011 */}
+    {/* use of jsx children */}
+    {/* <h1>{props.children}</h1> */}
 
-      {/* functional component */}
-      {/* <CompntFun name="GE" code="123454"></CompntFun> */}
+    {/* class components */}
+    {/* <CompntCls email="helpdesk@cdac.in" address="noida"> welcome to ReactWorld </CompntCls> */}
 
-      {/*COMT:012 */}
-      {/*Function Component */}
-      {/* <Garage>  sending children to components Garage - COMT:012  </Garage> */}
-    
-      {/* <ChangeState/> */}
+    {/* functional component */}
+    {/* <CompntFun name="GE" code="123454"></CompntFun> */}
 
-      {/* <StateCompt roll={450} /> */}
+    {/*COMT:012 */}
+    {/*Function Component */}
+    {/* <Garage>  sending children to components Garage - COMT:012  </Garage> */}
 
-      {/* < Counter /> */}
+    {/* <ChangeState/> */}
 
-      {/* < UserProfile /> */}
+    {/* <StateCompt roll={450} /> */}
 
-      {/* <CarDetails /> */}
+    {/* < Counter /> */}
 
-      {/* <SarkariResult2 /> */}
+    {/* < UserProfile /> */}
 
-      {/* <TodoList /> */}
+    {/* <CarDetails /> */}
 
-      {/* < FormExample/>  */}
+    {/* <SarkariResult2 /> */}
 
-       {/* <Form1/> */}
+    {/* <TodoList /> */}
 
-      {/* < HookForm /> */}
+    {/* < FormExample/>  */}
 
-      
+    {/* <Form1/> */}
 
+    {/* < HookForm /> */}
 
+    {/* LifeCycle */}
 
+    {/* without props */}
+    {/* <CompLifeCycle /> */}
 
+    {/* sending props */}
+    {/* <CompLifeCycle name="i am props" /> */}
 
+    {/* <CompLifeCycle2 name="i am props" /> */}
 
-      {/* LifeCycle */}
-
-      {/* without props */}
-      {/* <CompLifeCycle /> */}
-
-      {/* sending props */}
-      {/* <CompLifeCycle name="i am props" /> */}
-
-      {/* <CompLifeCycle2 name="i am props" /> */}
-
-      {/* <CompLifeCycle4 /> */}
+    {/* <CompLifeCycle4 /> */}
 
 
-      {/* <MainAppRoutes /> */}
+    {/* <MainAppRoutes /> */}
 
-      {/* <IndexAppRoutes /> */}
+    {/* <IndexAppRoutes /> */}
 
-      {/* <ReactRoute /> */}
+    {/* <ReactRoute /> */}
 
-      {/* <HookForm /> */}
+    {/* <HookForm /> */}
 
-      {/* <CSSBasic /> */}
+    {/* <CSSBasic /> */}
 
-      {/* lifting state up */}
-      {/* <MainHead /> */}
+    {/* lifting state up */}
+    {/* <MainHead /> */}
 
-      {/* <Hook1 /> */}
-      {/* <Hook2 /> */}
-      {/* <Hook3 /> */}
-      {/* <List /> */}
-      
-      {/* <Bootstraps /> */}
-      {/* <SimpleForm /> */}
-      {/* <LoginForm /> */}
-      {/* <ContextApi/> */}
+    {/* <Hook1 /> */}
+    {/* <Hook2 /> */}
+    {/* <Hook3 /> */}
+    {/* <List /> */}
 
-      {/*<AxiosTodo/> */}
+    {/* <Bootstraps /> */}
+    {/* <SimpleForm /> */}
+    {/* <LoginForm /> */}
+    {/* <ContextApi/> */}
 
-    </>
-    );
+    {/*<AxiosTodo/> */}
+
+  </>
+  );
 
 }
 

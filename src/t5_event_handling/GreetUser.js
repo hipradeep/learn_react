@@ -1,11 +1,23 @@
 import React from "react";
 
 function GreetUser() {
-    function greet(name) {
-        alert(`Hello, ${name}!`);
+    const [name, setName] = React.useState("");
+
+    function greet(v) {
+        alert(`Hello, ${name}! ${v}`);
     }
 
-    return <button onClick={() => greet("Pradeep")}>Say Hello</button>;
+    return (
+        <div>
+            <input 
+                type="text" 
+                placeholder="Enter your name" 
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+            />  
+            <button onClick={()=>greet("Clicked")}>Say Hello</button>
+        </div>
+    );
 }
 
 export default GreetUser;
