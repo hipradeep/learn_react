@@ -2,16 +2,30 @@ import HookUseSateExample2 from "./hook1_useState/HookUseStateExample2";
 import ContactForm from "./hook1_useState/ContactForm";
 import Component from "./hook2_useEffect/Component";
 import UserProfile2 from "./hook2_useEffect/UserProfile2";
-import ToolbarWithContext from "./hook3_useContex/ToolbarWithContext";
-import ThemedButtonWithContext from "./hook3_useContex/ThemedButtonWithContext";
-import MultipleContext from "./hook3_useContex/MultipleContext";
+import ToolbarWithContext from "./hook3_useContext/ToolbarWithContext";
+import ThemedButtonWithContext from "./hook3_useContext/ThemedButtonWithContext";
+import MultipleContext from "./hook3_useContext/MultipleContext";
 import ExpensiveCalculationComponentWithMemo from "./hook5_userMemo/ExpensiveCalculationComponentWithMemo";
 
 
+import Welcome from "./test/Welcome";
+import FilterList from  "./test/ListFilter";
+import Shop from "./hook3_useContext/shop/Shop";
 
 function App(props) {
 
   return (<>
+
+      <Shop />
+
+      {/* <Welcome name="Ramesh"/> */}
+
+      {/* <FilterList/> */}
+
+
+
+
+  
 
 
     {/* hook1_useState */}
@@ -31,7 +45,7 @@ function App(props) {
 
    {/* hook5_useMemo */}
 
-   <ExpensiveCalculationComponentWithMemo/>
+   {/* <ExpensiveCalculationComponentWithMemo/> */}
    
 
 
