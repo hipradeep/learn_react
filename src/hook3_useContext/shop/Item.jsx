@@ -9,9 +9,11 @@ function Item({ name, price }) {
     <div>
      <p> Item Name: {name}</p>
       Price: {price}
-      <button onClick={() => cart.addToCart({ name, price })}>
+      {/* <button onClick={() => cart.addToCart({ name, price })}>
         Add To Cart
-      </button>
+      </button> */}
+
+      <button onClick={()=> cart.setItems([...cart.items, {name, price}])}> Add TO CART</button>
     </div>
   );
 }
