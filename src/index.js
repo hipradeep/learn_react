@@ -3,18 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  //COMT:011
-  // <React.StrictMode>
-  //   {/* props.children(Children Prop Pattern) */}
-  //   <App > I am pradeep maurya! (jsx children)</App>
-  // </React.StrictMode>
-
   <React.StrictMode>
-    <App  />
+    <App />
   </React.StrictMode>
 );
 
