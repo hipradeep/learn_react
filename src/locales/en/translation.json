@@ -1,0 +1,7 @@
+{
+    "welcome": "Welcome to React",
+    "description": "This is an internationalization demo.",
+    "change_language": "Change Language",
+    "current_date": "Date: {{date, date}}",
+    "price": "Price: {{val, currency}}"
+}

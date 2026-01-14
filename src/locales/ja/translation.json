@@ -1,0 +1,7 @@
+{
+    "welcome": "Reactへようこそ",
+    "description": "これは国際化のデモです。",
+    "change_language": "言語を変更",
+    "current_date": "日付: {{date, date}}",
+    "price": "価格: {{val, currency}}"
+}

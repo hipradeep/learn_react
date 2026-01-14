@@ -1,0 +1,7 @@
+{
+    "welcome": "React में आपका स्वागत है",
+    "description": "यह अंतर्राष्ट्रीयकरण डेमो है।",
+    "change_language": "भाषा बदलें",
+    "current_date": "दिनांक: {{date, date}}",
+    "price": "कीमत: {{val, currency}}"
+}
