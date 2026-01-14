@@ -79,7 +79,10 @@ i18n
       format: (value, format, lng) => {
         if (format === 'number') return new Intl.NumberFormat(lng).format(value);
         if (format === 'date') return new Intl.DateTimeFormat(lng).format(value);
-        if (format === 'currency') return new Intl.NumberFormat(lng, { style: 'currency', currency: 'USD' }).format(value);
+        if (format === 'currency') {
+            const currency = lng === 'hi' ? 'INR' : (lng === 'ja' ? 'JPY' : 'USD');
+            return new Intl.NumberFormat(lng, { style: 'currency', currency: currency }).format(value);
+        }
         return value;
       }
     },
