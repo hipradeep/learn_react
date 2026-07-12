@@ -8,24 +8,22 @@ import MultipleContext from "./hook3_useContext/MultipleContext";
 import ExpensiveCalculationComponentWithMemo from "./hook5_userMemo/ExpensiveCalculationComponentWithMemo";
 
 
-import Welcome from "./test/Welcome";
-import FilterList from  "./test/ListFilter";
 import Shop from "./hook3_useContext/shop/Shop";
+import Test from "./test/Test";
 
 function App(props) {
 
   return (<>
 
-      <Shop />
-
-      {/* <Welcome name="Ramesh"/> */}
-
-      {/* <FilterList/> */}
+    {/* <Shop /> */}
+    <Test />
 
 
 
 
-  
+
+
+
 
 
     {/* hook1_useState */}
@@ -40,13 +38,13 @@ function App(props) {
     {/* hook3_useContex */}
 
     {/* <ToolbarWithContext/> */}
-   {/* < ThemedButtonWithContext/> */}
-   {/* <MultipleContext/> */}
+    {/* < ThemedButtonWithContext/> */}
+    {/* <MultipleContext/> */}
 
-   {/* hook5_useMemo */}
+    {/* hook5_useMemo */}
 
-   {/* <ExpensiveCalculationComponentWithMemo/> */}
-   
+    {/* <ExpensiveCalculationComponentWithMemo/> */}
+
 
 
 
